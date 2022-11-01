@@ -1,6 +1,6 @@
 export const candyMachineAddress = "0xfd7965f6f7343069f53cd40d3e6697ca6a2535c1ae35ceab0ace4578ab4de206";
 export const collectionName = "AptosDeadCult"; // Case sensitive!
-export const collectionCoverUrl = "https://cloudflare-ipfs.com/ipfs/QmRYFpF5fSMYg4b4k1jTSpBTF1GbdBc3pGY4KmogHmz3yw";
+export const collectionCoverUrl = "gif.gif";
 export const mode = "mainnet"; // "dev" or "test" or "mainnet"
 
 export let NODE_URL;
