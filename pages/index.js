@@ -140,8 +140,8 @@ export default function Home() {
     <div className="bg-gray-500">
       <div className={styles.container}>
         <Head>
-          <title>Aptos NFT Mint</title>
-          <meta name="description" content="Aptos NFT Mint" />
+          <title>Aptos Dead Cult</title>
+          <meta name="description" content="Aptos Dead Cult" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -152,7 +152,7 @@ export default function Home() {
           <div className={styles.topcorner}>
             <ConnectWalletButton connectButton={!wallet.connected} className="d-flex" />
           </div>
-          <img src={collectionCoverUrl} style={{ width: "480px", height:"480px" }} />
+          <img src={"/gif.gif"} className="collectioncover" style={{ width: "480px", height:"480px" }} />
           <div id="collection-info" className="d-flex flex-column align-items-center text-white" style={{width: "80%"}}>
             {isFetchignCmData ? <Spinner animation="border" role="status" className="mt-5"><span className="visually-hidden">Loading...</span></Spinner> : 
             <>
@@ -172,6 +172,12 @@ export default function Home() {
                 <h6>{timeLeftToMint.public === "LIVE" ? "LIVE" : timeLeftToMint.public.days + " days : " + timeLeftToMint.public.hours + " hours : " + timeLeftToMint.public.minutes + " minutes : " + timeLeftToMint.public.seconds + " seconds"}</h6>
               </div>
             </>}
+          </div>
+          <div className="main-text">
+            <h2>Aptos Dead Cult</h2>
+            <p>5555 Dead Cult Degens launching on Aptos by aptoslabs 💀 Art, community and fun 👌 Are you fucking degen enough?</p>
+            <h2>Ready to join the cult?</h2>
+            <p>Dead cult live in the forest and live and pray on the dead and pray to the gods to protect her and get the keys to all of the houses in her neighborhood the cult is searching for you for all the people and the family who are in danger you need to take off the amulet this is your only hope.</p>
           </div>
 
           <Modal id="mint-results-modal" show={mintInfo.success} onHide={() => setMintInfo({...mintInfo, success: false, mintedNfts: []})} centered size="lg">

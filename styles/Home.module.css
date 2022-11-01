@@ -1,3 +1,6 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive; */
+
 .container {
   padding: 0 2rem;
 }
@@ -22,8 +25,10 @@
   right: 20px;
 }
 
+
+
 .button {
-  background-color: #33ddaa;
+  background-color: #04D976;
   color: white;
   border: none;
   border-radius: .3rem;
@@ -55,7 +60,9 @@
   color: white;
   margin: 0;
   line-height: 1.15;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-family: 'Permanent Marker', cursive; 
+  text-shadow: 5px 5px 3px #111; 
 }
 
 .description {
@@ -117,7 +124,7 @@
 .connectWalletBtn {
   width: 100%;
   color: white;
-  background: #33ddaa;
+  background: #04D976;
   border: none;
   border-radius: .5rem;
   display: flex;
